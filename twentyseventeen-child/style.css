@@ -1,0 +1,166 @@
+/*
+ Theme Name:   BitGanj Shop Edition
+ Theme URI:    https://github.com/BtcRelax/bitganj-wp-theme
+ Description:  BitGanj Shop Edition theme
+ Author:       God Jah
+ Author URI:   http://bitganj.website
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  bitganj
+*/
+
+.site-title a {
+	-webkit-animation-name: title-color; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 32s; /* Safari 4.0 - 8.0 */
+  	animation-name: title-color;
+  	animation-duration: 32s;
+  	animation-iteration-count: infinite;
+	text-shadow:2px 2px 2px white;
+} 
+
+.site-description {
+	font-weight: bold;
+	text-shadow:2px 2px 2px white;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes title-color {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+
+/* Standard syntax */
+@keyframes title-color {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+
+.mi-shop {
+  color: red;
+	text-shadow:2px 2px 2px white;
+}
+.custom-logo-link img {
+  animation: infinite;
+  /* Safari */
+  -webkit-animation: spin 2s linear 3;
+  /* Safari */
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#telegramim_fixed {
+  position: fixed;
+  z-index: 999999999;
+  font-size: 16px;
+  letter-spacing: normal;
+}
+.telegramim_button {
+  opacity: 1;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  text-decoration: none !important;
+  text-transform: none;
+  letter-spacing: normal;
+}
+.telegramim_button span {
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+}
+.telegramim_button small {
+  font-size: 70%;
+  display: block;
+  padding: 1px 5px;
+  background: transparent;
+  text-align: center;
+}
+#telegramim_fixed.rightbottom {
+  right: 2%;
+  bottom: 2%;
+}
+.telegramim_shadow {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.telegramim_shadow:hover {
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) !important;
+}
+.telegramim_pulse {
+  animation: animationpulse 2s infinite;
+  -webkit-animation: animationpulse 2s ease-out;
+  -webkit-animation-iteration-count: infinite;
+}
+.telegramim_pulse:hover {
+  animation: linear;
+}
+@-webkit-keyframes animationpulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 inherit;
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+@keyframes animationpulse {
+  0% {
+    transform: scale(1, 1);
+    -moz-box-shadow: 0 0 0 0 inherit;
+    box-shadow: 0 0 0 0 	inherit;
+  }
+  10% {
+    transform: scale(1.1, 1.1);
+  }
+  15% {
+    transform: scale(1, 1);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes title-color {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+
+/* Standard syntax */
+@keyframes title-color {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+
